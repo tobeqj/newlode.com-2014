@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="zh" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="zh" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="zh"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.full_title %}{{ page.full_title }}{% else %}{% if page.title %}{{ page.title }}-{% endif %}{{ site.title }}{% endif %}</title>
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    {% stylesheet application %}
+  </head>
+  <body id="body" data-spy="scroll" data-target=".navbar-fixed-top" class="demo-lightbox-gallery">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#intro"><img src="/images/logo1.png" alt="Logo"></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li class="page-scroll"><a href="#body">首页</a></li>
+            <li class="page-scroll"><a href="#about">企业简介</a></li>
+            <li class="page-scroll"><a href="#services">服务内容</a></li>
+            <li class="page-scroll"><a href="#portfolio">成功案例</a></li>
+            <li class="page-scroll"><a href="#cooperation">合作流程</a></li>
+            <li class="page-scroll"><a href="#contact">联系我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    {{ content }}
+    {% javascript application %}
+    <script type="text/javascript">
+        var revapi;
+
+        jQuery(document).ready(function() {
+            App.init();
+            App.initCounter();
+            App.initParallaxBg();
+            OwlCarousel.initOwlCarousel();            
+
+            revapi = jQuery('.fullscreenbanner').revolution({
+                delay:15000,
+                startwidth:1170,
+                startheight:500,
+                hideThumbs:10,
+                fullWidth:"on",
+                fullScreen:"on",
+                dottedOverlay:"twoxtwo",
+                fullScreenOffsetContainer: "",
+            });
+
+            $("a.fancybox-btn").fancybox();
+        });
+    </script>
+    <script type="text/javascript">
+        paceOptions = {
+          // Disable the 'elements' source
+          elements: false,
+
+          // Only show the progress on regular and ajax-y page navigation,
+          // not every request
+          restartOnRequestAfter: false
+        }
+    </script>
+    <!--[if lt IE 9]>
+      <script src="assets/respond.js"></script>
+      <script src="assets/html5shiv.js"></script>
+    <![endif]-->    
+  </body>
+</html>

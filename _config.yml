@@ -1,0 +1,31 @@
+url: http://www.newlode.com
+
+title: 牛斗兄弟
+
+keywords: 牛斗兄弟
+
+description: 牛斗兄弟。
+
+permalink: /products/:title.html
+
+relative_permalinks: false
+
+include:
+  - .htaccess
+
+exclude:
+  - README.md
+  - css
+  - js
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - js
+    - css
+  js_compressor: uglifier
+  css_compressor: sass
+  cache: true
+  cache_assets: true
+  gzip: []

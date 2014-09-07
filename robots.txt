@@ -3,12 +3,7 @@ layout: nil
 ---
 User-agent: *
 Disallow: /assets/
-Disallow: /fonts/
 Disallow: /images/
-Disallow: /legacy/
-Disallow: /logreport/
-Disallow: /mail/
-Disallow: /HttpErrors/404.htm
 Disallow: /favicon.ico
 
 Sitemap: {{ site.url }}/Sitemap.xml

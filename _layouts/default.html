@@ -57,7 +57,13 @@
                 fullScreenOffsetContainer: "",
             });
 
-            $("a.fancybox-btn").fancybox();
+            $(".fancybox-btn").fancybox();
+
+            $('.page-scroll').click(function(e){
+                if ($('.navbar-collapse').hasClass('in')){
+                    $('.navbar-collapse').removeClass('in').addClass('collapse');
+                }
+            });
         });
     </script>
     <script type="text/javascript">

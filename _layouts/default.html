@@ -37,45 +37,6 @@
     </nav>
     {{ content }}
     {% javascript application %}
-    <script type="text/javascript">
-        var revapi;
-
-        jQuery(document).ready(function() {
-            App.init();
-            App.initCounter();
-            App.initParallaxBg();
-            OwlCarousel.initOwlCarousel();            
-
-            revapi = jQuery('.fullscreenbanner').revolution({
-                delay:15000,
-                startwidth:1170,
-                startheight:500,
-                hideThumbs:10,
-                fullWidth:"on",
-                fullScreen:"on",
-                dottedOverlay:"twoxtwo",
-                fullScreenOffsetContainer: "",
-            });
-
-            $(".fancybox-btn").fancybox();
-
-            $('.page-scroll').click(function(e){
-                if ($('.navbar-collapse').hasClass('in')){
-                    $('.navbar-collapse').removeClass('in').addClass('collapse');
-                }
-            });
-        });
-    </script>
-    <script type="text/javascript">
-        paceOptions = {
-          // Disable the 'elements' source
-          elements: false,
-
-          // Only show the progress on regular and ajax-y page navigation,
-          // not every request
-          restartOnRequestAfter: false
-        }
-    </script>
     <!--[if lt IE 9]>
       <script src="/assets/respond.js"></script>
       <script src="/assets/html5shiv.js"></script>

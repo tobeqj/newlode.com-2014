@@ -15,3 +15,5 @@
 //= require app.js
 //= require owl-carousel.js
 //= require back-to-top.js
+//= require add-one.js
+//= require add-two.js

@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Revolution Slider
 ------------------------------------*/
 .tp-bullets.simplebullets.round .bullet {
-    background: url("../images/bullet.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    background: url("../images/assets/bullet.png") no-repeat scroll left top rgba(0, 0, 0, 0);
     cursor: pointer;
     float: left;
     height: 20px;
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100%; 
 	content: " ";
 	position: absolute;
-	background: url(../images/patterns/gridtile.png) repeat;
+	background: url(../images/assets/gridtile.png) repeat;
 }
 
 .parallax-quote-in {
@@ -380,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100%; 
 	content: " ";
 	position: absolute;
-	background: url(../images/patterns/gridtile.png) repeat;
+	background: url(../images/assets/gridtile.png) repeat;
 }
 
 .parallax-twitter-in {
@@ -652,7 +652,7 @@ h1, h2, h3, h4, h5, h6 {
 .contacts-section {
 	color: #fff;
     position: relative;
-	background: #333 url(../images/contact.jpg) center fixed;
+	background: #333 url(../images/assets/contact.jpg) center fixed;
 }
 
 .contacts-section:after {
@@ -672,7 +672,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100%; 
 	content: " ";
 	position: absolute;
-	background: url(../images/patterns/gridtile.png) repeat;
+	background: url(../images/assets/gridtile.png) repeat;
 }
 
 /*Contacts Title*/
@@ -1007,7 +1007,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100%; 
 	content: " ";
 	position: absolute;
-	background: url(../images/patterns/gridtile.png) repeat;
+	background: url(../images/assets/gridtile.png) repeat;
 }
 
 .clients-section .title-v1 p,

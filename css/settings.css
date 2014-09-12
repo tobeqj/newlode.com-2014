@@ -1273,10 +1273,10 @@ border-style:none;
 	-	DOTTED OVERLAYS	-
 *********************************/
 .tp-dottedoverlay						{	background-repeat:repeat;width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:1;}
-.tp-dottedoverlay.twoxtwo				{	background:url(../images/gridtile.png)}
-.tp-dottedoverlay.twoxtwowhite			{	background:url(../assets/gridtile_white.png)}
-.tp-dottedoverlay.threexthree			{	background:url(../assets/gridtile_3x3.png)}
-.tp-dottedoverlay.threexthreewhite		{	background:url(../assets/gridtile_3x3_white.png)}
+.tp-dottedoverlay.twoxtwo				{	background:url(../images/assets/gridtile.png)}
+.tp-dottedoverlay.twoxtwowhite			{	background:url(../images/assets/gridtile_white.png)}
+.tp-dottedoverlay.threexthree			{	background:url(../images/assets/gridtile_3x3.png)}
+.tp-dottedoverlay.threexthreewhite		{	background:url(../images/assets/gridtile_3x3_white.png)}
 /********************************
 	-	DOTTED OVERLAYS ENDS	-
 *********************************/
@@ -1311,7 +1311,7 @@ border-style:none;
 .tp-bullets.simplebullets.navbar-old					{ 	 background:url(../assets/navigdots_bgtile.png); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
 
-.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(../images/bullet.png) no-Repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:0px; margin-left:3px;}
+.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(../images/assets/bullet.png) no-Repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:0px; margin-left:3px;}
 .tp-bullets.simplebullets.round .bullet.last			{	margin-right:3px;}
 
 .tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url(../assets/bullets.png) no-Repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:0px;}
@@ -1373,8 +1373,8 @@ border-style:none;
 															-khtml-opacity: 0;
 															opacity: 0;
 														}
-.tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../images/large_left.png) no-Repeat top left;	width:40px;	height:40px;   }
-.tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../images/large_right.png) no-Repeat top left;	width:40px;	height:40px;   }
+.tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../images/assets/large_left.png) no-Repeat top left;	width:40px;	height:40px;   }
+.tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../images/assets/large_right.png) no-Repeat top left;	width:40px;	height:40px;   }
 
 
 .tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/small_left.png) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:0px;	}
@@ -1403,10 +1403,10 @@ border-style:none;
 .tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrow_right2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
 
 
-.tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/large_left.png) no-Repeat 0 0;	width:40px;	height:40px;
+.tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/assets/large_left.png) no-Repeat 0 0;	width:40px;	height:40px;
 
 														}
-.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/large_right.png) no-Repeat 0 0;	width:40px;	height:40px;
+.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/assets/large_right.png) no-Repeat 0 0;	width:40px;	height:40px;
 
 														}
 
@@ -1471,7 +1471,7 @@ border-style:none;
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
-.tp-bannertimer								{	width:100%; height:10px; background:url(../images/timer.png);position:absolute; z-index:200;top:0px;}
+.tp-bannertimer								{	width:100%; height:10px; background:url(../images/assets/timer.png);position:absolute; z-index:200;top:0px;}
 .tp-bannertimer.tp-bottom					{	bottom:0px;height:5px; top:auto;}
 
 
@@ -1540,7 +1540,7 @@ border-style:none;
 .tp-loader.spinner0 {
   width: 40px;
   height: 40px;
-  background:url(../images/loader.gif) no-repeat center center;
+  background:url(../images/assets/loader.gif) no-repeat center center;
   background-color: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);  
@@ -1571,7 +1571,7 @@ border-style:none;
 
 
 
-.tp-loader.spinner5 	{	background:url(../assets/loader.gif) no-repeat 10px 10px; 
+.tp-loader.spinner5 	{	background:url(../images/assets/loader.gif) no-repeat 10px 10px; 
 							background-color:#fff;  
 							margin:-22px -22px; 							
 							width:44px;height:44px;

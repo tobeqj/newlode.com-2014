@@ -181,12 +181,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Slides*/
 .rs-caption-1 {
-	color: #fff;
+	color: #000;
 	font-size: 32px;
 	font-weight: 200;
 	padding: 6px 75px;
-	border-top: solid 1px #fff;
-	border-bottom: solid 1px #fff;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
 }
 
 .rs-caption-1:after,
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .rs-caption-2 {
-	color: #fff;
+	color: #000;
 	font-size: 26px;
 	font-weight: 200;
 	line-height: 40px;
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 1px;
 	width: 100px;
 	bottom: -10px;
-	background: #fff;
+	background: #000;
 	margin-left: -50px;
 	position: absolute;
 }

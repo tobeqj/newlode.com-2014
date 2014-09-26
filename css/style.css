@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Parallax Team*/
 .parallax-team {
-	background: url(../images/team/faces.jpg) 50% 0 repeat fixed;	
+	background: url(../images/assets/faces.jpg) 50% 0 repeat fixed;	
 }
 
 .parallax-team,
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 100px 0;
 	position: relative;
 	text-align: center;
-	background: url(../images/contents/faces.jpg) 50% 0 repeat fixed;	
+	background: url(../images/assets/faces.jpg) 50% 0 repeat fixed;	
 }
 
 .parallax-quote:after {
